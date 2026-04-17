@@ -81,14 +81,14 @@ import pymysql as p
 D=p.connect(
     host='localhost',
     user='root',
-    password='2002'
+    password='password'
 )
 a=D.cursor()
 # a.execute("Create database forecast")
 c=p.connect(
     host='localhost',
     user='root',
-    passwd='2002',
+    passwd='password',
     database='forecast'
 )
 b=c.cursor()
